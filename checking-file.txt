@@ -1,2 +1,3 @@
 check kr rhe hai merge hua ya nahi 
 ab local se github pe daalre hai .
+ab github se local se pe dalre hai .
