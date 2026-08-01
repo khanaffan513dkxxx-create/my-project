@@ -1,0 +1,22 @@
+1994  git commit -m "changes"
+ 1995  git push origin master
+ 1996  python testing.py
+ 1997  git add .
+ 1998  git status
+ 1999  ls -ls
+ 2000  git init
+ 2001  git add .
+ 2002  git commit -m "now ready"
+ 2003  git status
+ force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
